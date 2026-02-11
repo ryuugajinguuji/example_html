@@ -39,7 +39,7 @@
     });
   }, observerOptions);
 
-  document.querySelectorAll('.about, .area, .contact').forEach(function (el) {
+  document.querySelectorAll('.about, .area, .contact, .copy-section, .mahjong-gallery, .dozle-link-section, .mahjong-item').forEach(function (el) {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -47,7 +47,7 @@
   });
 
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.about, .area, .contact').forEach(function (el) {
+    document.querySelectorAll('.about, .area, .contact, .copy-section, .mahjong-gallery, .dozle-link-section, .mahjong-item').forEach(function (el) {
       el.classList.add('scroll-reveal');
     });
   });
